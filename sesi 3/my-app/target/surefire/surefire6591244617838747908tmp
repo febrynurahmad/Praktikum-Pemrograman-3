@@ -1,0 +1,6 @@
+#surefire
+#Tue Oct 02 14:11:56 ICT 2012
+user.dir=E\:\\KULIAH\\P3\\pertemuan ke 4\\my-app
+exec.mainClass=com.artivisi.project.DemoBorderLayout
+localRepository=C\:\\Users\\Mazone\\.m2\\repository
+basedir=E\:\\KULIAH\\P3\\pertemuan ke 4\\my-app

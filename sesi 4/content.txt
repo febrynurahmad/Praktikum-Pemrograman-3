@@ -1,0 +1,63 @@
+Tentunya Anda tidak asing lagi dengan nama Java, sebuah bahasa
+pemrograman berorientasi objek yang dikembangkan oleh Sun
+Microsystems. Di bagian awal ini, kita akan mengulas tentang sekilas
+Java yang ditinjau dari aspek lingkungan pengembangan dan
+produk. Diharapkan ulasan ini nantinya dapat memperjelas termi-
+nologi ataupun pernyataan-pernyataan yang kerap kali membi-
+ngungkan, terutama bagi yang baru mengenal Java.
+
+1
+
+•	Lingkungan Pengembangan
+Dalam mendiskusikan Java, kiranya penting sekali untuk mem-
+bedakan antara bahasa pemrograman Java, Java Virtual Machine,
+dan platform Java. Bahasa pemrograman Java adalah bahasa yang
+digunakan untuk menghasilkan aplikasi-aplikasi Java. Pada umum-
+nya, bahasa pemrograman hanya mendefinisikan sintaks dan peri-
+laku bahasa.
+Pada saat program Java dikompilasi, ia akan dikonversi ke bentuk
+bytecode, yang merupakan bahasa mesin yang portable. Selan-
+jutnya, bytecode tersebut dijalankan di Java Virtual Machine (atau
+disebut Java VM atau JVM). Meskipun JVM dapat diimplementasikan
+langsung di perangkat keras, namun biasanya diimplementasikan
+dalam bentuk program perangkat lunak yang mengemulasi mesin
+(komputer) dan digunakan untuk menginterpretasi bytecode.
+Platform dapat didefinisikan sebagai perangkat lunak pendukung
+untuk aktivitas-aktivitas tertentu. Platform Java sendiri pada prin-
+sipnya berbeda dengan bahasa Java atau JVM. Platform Java adalah
+himpunan kelas-kelas Java yang sudah didefinisikan sebelumnya
+dan eksis sejak instalasi Java. Platform Java juga mengacu pada
+lingkungan runtime atau API (Application Programming Interface)
+Java.
+•	Edisi Java
+Guna mencakup lingkungan-lingkungan aplikasi yang berbeda, Sun
+mendefinisikan 3 (tiga) edisi Java.
+•	J2ME (Java 2 Micro Edition)
+Edisi ini ditujukan bagi lingkungan dengan sumber daya ter-
+batas, seperti smartcard, ponsel, dan PDA.
+•	J2SE (Java 2 Standard Edition)
+Edisi ini ditujukan bagi lingkungan workstation, seperti pem-
+buatan aplikasi-aplikasi dekstop.
+•	J2EE (Java 2 Enterprise Edition)
+Edisi ini ditujukan bagi lingkungan Internet atau aplikasi ter-
+distribusi dalam skala besar.
+
+2
+
+Perbedaan setiap edisi meliputi fitur-fitur bahasa yang didukung dan
+API yang tersedia. Berdasarkan tingkatannya, edisi yang lebih tinggi
+mampu mengemulasikan edisi yang lebih rendah. Adapun urutan
+edisi dari yang tertinggi ke rendah adalah J2EE, J2SE, dan J2ME.
+•	Versi Java
+Ada hal yang menarik dan perlu kita cermati mengenai versi-versi
+Java yang telah dirilis. Sun menggunakan dua jenis versi untuk
+mengidentifikasikan rilis Java, yaitu versi produk dan versi developer.
+Seperti kita ketahui, versi terbaru saat ini adalah versi 6 (versi
+produk) atau versi 1.6.0 (versi developer), dengan nama kode Mus-
+tang.
+Sejak tahun 2006, Sun juga menyederhanakan penamaan platform
+dengan tujuan untuk mencerminkan tingkat kematangan, stabilitas,
+skalabilitas, dan sekuriti yang lebih baik. Jika penamaan versi sebe-
+lumnya adalah Java 2 Platform, Standard Edition 5.0 (J2SE 5.0),
+maka sekarang disederhanakan menjadi Java Platform, Standard
+Edition 6 (Java SE 6, atau lebih sering disebut Java 6).
